@@ -21,7 +21,7 @@ p , h2{
 }
 h2{
     color: rgb(0, 55, 158);
-    font-size: 50px;
+    font-size: 55px;
 }
 .grupo{
     height: 100px;
@@ -41,14 +41,53 @@ p , h2{
 }
 
 fieldset{
-    height: 150px;
-    width: 80%;
+    border: rgb(0, 55, 158) 2px solid;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 form{
-    gap: 20px;
-    margin: 5%;
+    margin: 6%;
+    margin-inline: 150px;
+}
+#LabelFormulario{
+    font-size: 35px;
+    color: rgb(0, 55, 158);
+}
+#inputFoormulario{
+    height: 40px;
+    width: 300px;
+    margin: 3%;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: rgb(100, 165, 250) 2px solid;
+    
+    font-size: 20px;
+}
+#comprobar{
+    height: 50px;
+    width: 250px;
+
+    border: rgb(0, 55, 158) 2px solid;
+
+    font-size: 25px;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: rgb(100, 165, 250);
+}
+#mensaje{
+    width: 70%;
+    height: 55px;
+    margin: 2%;
+    background-color: rgba(255, 0, 0, 0.692);
+}
+#textMensaje{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 3%;
 }
