@@ -8,29 +8,29 @@
 <body>
     <main>
         <section id="Inicio">
-            <h2>Adivina el número secreto</h2>
+            <h2>Adivina la palabra secreta</h2>
             <article id="grupos">
                 <div class="grupo">
-                    <p>*</p>
+                    <p id="uno">*</p>
                 </div>
                 <div class="grupo">
-                    <p>*</p>
+                    <p id="dos">*</p>
                 </div>
                 <div class="grupo">
-                    <p>*</p>
+                    <p id="tres">*</p>
                 </div>
                 <div class="grupo">
-                    <p>*</p>
+                    <p id="cuatro">*</p>
                 </div>
                 <div class="grupo">
-                    <p>*</p>
+                    <p id="cinco">*</p>
                 </div>
             </article>
         </section>
 
         <div id="fieldset">
             <div class="form">
-                <label For="prueba" id="LabelFormulario">Escribe aquí un número</label><br><br>
+                <label for="prueba" id="LabelFormulario">Escribe aquí una palabra</label><br><br>
                 <input type="text" name="prueba" id="inputFoormulario"><br>
                 <button id="comprobar" onclick="prueba()">Comprobar</button>
             </div>
@@ -38,6 +38,10 @@
 
         <div id="mensaje">
             <p id="textMensaje">Primer intento, suerte!</p>
+        </div>
+
+        <div id="resultados">
+
         </div>
     </main>
 </body>

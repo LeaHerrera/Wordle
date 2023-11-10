@@ -91,3 +91,41 @@ p , h2{
     font-weight: 700;
     margin: 3%;
 }
+#resultados{
+    margin: 5%;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.celdas{
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+}
+.negro{
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.amarillo{
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+    background-color: rgba(255, 238, 0, 0.589);
+}
+.verde{
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+    background-color: rgba(68, 196, 10, 0.616);
+}
+.caracter{
+    font-size: 30px;
+    margin: 40%;
+    font-weight: 800;
+}
